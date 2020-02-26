@@ -105,7 +105,7 @@ border: none;
 }
 
 /* SKILLS */
-#skills {
+/* #skills {
   background: #fff;
 }
 
@@ -116,10 +116,10 @@ border: none;
   height: 37px;
   margin: 30px 20px;
   background: white; /*#ddd*/
-}
+/* }
 #skills .progress-bar {
   background: white;/*#ff4500*/
-  text-align: left;
+  /* text-align: left;
 }
 #skills .progress h5 {
   margin-top: 5px;
@@ -129,7 +129,16 @@ border: none;
 }
 .index {
   position: absolute;
+} */
+
+img.img-thumbnail{
+
+
+  width: 100px;
+  border: none;
 }
+
+
 
 /* EXPERIENCE */
 #experience {
