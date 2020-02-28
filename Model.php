@@ -6,17 +6,23 @@ function envoieBdd($email, $message, $nom, $prenom)
 global $email, $message, $nom, $prenom;
 
 
-
-// $host = "localhost";
-// $dbname = "joans_monportfolio; charset=utf8";
-// $user = "joans";
-// $pass = "knjs9opz0AHmqA==";
-
+//en ligne
 $host = "localhost";
-$dbname = "monportfolio; port=3308; charset=utf8";
-$user = "root";
-$pass = "";
+$dbname = "joans_monportfolio; charset=utf8";
+$user = "joans";
+$pass = "knjs9opz0AHmqA==";
 
+
+//en local
+// $host = "localhost";
+// $dbname = "monportfolio; port=3308; charset=utf8";
+// $user = "root";
+// $pass = "";
+
+
+/*******************************************/
+/*************** Connexion BDD ****************/
+/*******************************************/
 try {
     $dbco = new PDO('mysql:host=' . $host . '; dbname=' . $dbname, $user, $pass);
     $dbco->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

@@ -18,6 +18,7 @@ foreach($superglobals as $superglobal)
 
 global $submit, $nom, $prenom;
 
+//Si bouton envoyé
 
 if($submit){
 
@@ -54,12 +55,14 @@ Reply-To:<a href='.$email.'>'.$email.'</a><br><br>
 </html>'; 
 
 
+//si les champs ne sont pas rempli
 
 if (!$email || !$message || !$nom || !$prenom) {
     echo "Rempli le formulaire!!!!!";
 } else {
+    //envoie la fonction mail
     $result = mail($name, $htmlContent, $header);
-
+//appel la function pour inserer dans la base de donnée
     envoieBdd($email, $message, $nom, $prenom);
    
 }
