@@ -16,7 +16,7 @@ foreach($superglobals as $superglobal)
 }
 
 
-global $submit, $nom, $prenom;
+global $submit, $nom, $prenom, $message;
 
 //Si bouton envoyé
 
@@ -24,9 +24,9 @@ if($submit){
 
 $name= $nom." ".$prenom;
 
-$header = "From:" .$email;
+$header = "From:" .$email. "\r\n";
 $header .= "Reply-To: ". $email . "\r\n";
-$header .= "CC:sor.joan@gmail.com\r\n";
+$header .= "CC:". $email ."\r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-Type: text/html; charset=ISO-8859-1\r\n"; 
 
@@ -34,10 +34,10 @@ $header .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 $htmlContent = ' 
 <html> 
 <head> 
-    <title>'.$name.'</title> 
+    <title>Mail</title> 
 </head> 
 <body> 
-    <h1 style="color : red">Hello !</h1> 
+    <h1 style="color : red">Hello ! Un mail envoyé de mon portfolio de '.$name.' !</h1> 
     <table cellpadding="0" cellspacing="0" width="100%">
 <tbody style="display: block">
 <tr>
@@ -54,16 +54,22 @@ Reply-To:<a href='.$email.'>'.$email.'</a><br><br>
 </tbody></table>
 </html>'; 
 
+$to = @html_entity_decode($to);
+$header = @html_entity_decode($header);
+$message = @html_entity_decode($message);
+$subject = @html_entity_decode($subject);
 
 //si les champs ne sont pas rempli
 
 if (!$email || !$message || !$nom || !$prenom) {
     echo "Rempli le formulaire!!!!!";
 } else {
+    $to = "sor.joan@gmail.com";
     //envoie la fonction mail
-    $result = mail($name, $htmlContent, $header);
+    $result = mail($to, $subject, $htmlContent, $header);
 //appel la function pour inserer dans la base de donnée
     envoieBdd($email, $message, $nom, $prenom);
+    echo "L'email a été envoyé.";
    
 }
 }

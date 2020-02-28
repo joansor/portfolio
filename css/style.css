@@ -363,11 +363,14 @@ textarea.form-control {
 /*focus, hover*/
 input.form-control:focus {
     
-    background: none;
+    color: black;
+    background: white;
     border: none;
 }
 textarea.form-control:focus {
-    background: none;
+    
+    color: black;
+    background: white;
   }
   .btn.btn-lg.btn-info.col-md-2.submit-contact:hover {
     margin-top: 40px;

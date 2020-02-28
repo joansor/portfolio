@@ -54,24 +54,24 @@
         id="myNavbar"
       >
         <ul class="nav nav-pills navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
+          <li class="nav-item"><a class="nav-link mr-1" href="#about">Moi</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Compétences</a>
+            <a class="nav-link mr-1" href="#skills">Compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Expérience</a>
+            <a class="nav-link mr-1" href="#experience">Expérience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link mr-1" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link mr-1" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#mes-objectifs">Mes Objectifs</a>
+            <a class="nav-link mr-1" href="#mes-objectifs">Mes Objectifs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link mr-1" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -352,12 +352,12 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <h3>"Apprendre l'anglais"</h3>
+              <h3>"Améliorer mon anglais"</h3>
               <h4>prochaine formation</h4>
             </div>
             <div class="carousel-item">
               <h3>"Intégrer une entreprise"</h3>
-              <h4>De dévellopement web et web mobile</h4>
+              <h4>De développement web et web mobile</h4>
             </div>
             <div class="carousel-item">
               <h3>
@@ -447,7 +447,7 @@
                       type="text"
                       class="form-control"
                       id="email"
-                      placeholder="Email*"
+                      placeholder="Votre Email*"
                       name="email"
                       required
                     />
