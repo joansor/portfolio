@@ -273,7 +273,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a href="http://www.facebook.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/porjet-bomber.jpg"
@@ -282,7 +282,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="http://www.google.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/Integration-ACS/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/projet-acs.png"
@@ -291,7 +291,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="http://www.twitter.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/projet-inaugurationv1.png"
@@ -302,7 +302,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a href="http://www.google.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/toutuncinema.png"
@@ -311,7 +311,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="http://www.twitter.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/MailProject/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/mailProjet.png"
@@ -320,7 +320,7 @@
             </a>
           </div>
           <div class="col-md-4">
-            <a href="http://www.facebook.com" target="_blank">
+            <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" target="_blank">
               <img
                 class="img-thumbnail"
                 src="images/projet-inauguration.png"
@@ -396,7 +396,7 @@
     <section id="contact">
       <div class="container">
         <div class="divider"></div>
-        <form action="" method="post" autocomplete="off">
+        <form action="" method="post" autocomplete="off" onsubmit="verif(event)">
           <div class="heading">
             <h2>
               CONTACT
@@ -500,6 +500,7 @@
           </div>
           <div class="button-position row justify-content-center">
             <input
+              id ="submit"
               type="submit"
               class="btn btn-lg btn-info col-md-2 col-2 submit-contact"
               value="Envoyer"

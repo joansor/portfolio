@@ -63,6 +63,10 @@ $subject = @html_entity_decode($subject);
 
 if (!$email || !$message || !$nom || !$prenom) {
     echo "Rempli le formulaire!!!!!";
+// }else if(!preg_match("#^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]{2,}\.[a-z]{2,4}$#", $email)){
+
+//     echo "Charactère pas valide pour le champs Mail !";
+    
 } else {
     $to = "sor.joan@gmail.com";
     //envoie la fonction mail
