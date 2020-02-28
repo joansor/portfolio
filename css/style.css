@@ -17,7 +17,7 @@ h6 {
 }
 img {
   max-width: 100%;
-  height: auto;
+  height: auto; 
 }
 ul,
 ol {
@@ -136,6 +136,7 @@ img.img-thumbnail{
 
   width: 100px;
   border: none;
+ 
 }
 
 

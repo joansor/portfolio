@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -159,7 +161,7 @@
                   <p>
                     Apprentissage de différents languages back-end
                   </p>
-                  <p>PHP/...</p>
+                  <p>PHP/MySql...</p>
                 </div>
               </div>
             </div>
@@ -361,7 +363,7 @@
               <h3>
                 "Me perfectionner"
               </h3>
-              <h4>Dans le JavaScript</h4>
+              <h4>Avec un futur stage</h4>
             </div>
             <div class="carousel-item">
               <h3>
@@ -394,7 +396,7 @@
     <section id="contact">
       <div class="container">
         <div class="divider"></div>
-        <form action="https://google.fr" autocomplete="off">
+        <form action="" method="post" autocomplete="off">
           <div class="heading">
             <h2>
               CONTACT
@@ -417,6 +419,7 @@
                       id="nom"
                       placeholder="Nom*"
                       value=""
+                      name="nom"
                       required
                     />
                   </div>
@@ -431,6 +434,7 @@
                       id="prenom"
                       placeholder="Prénom*"
                       value=""
+                      name="prenom"
                       required
                     />
                   </div>
@@ -444,6 +448,7 @@
                       class="form-control"
                       id="email"
                       placeholder="Email*"
+                      name="email"
                       required
                     />
                   </div>
@@ -489,6 +494,7 @@
                 id="contact-textarea"
                 rows="3"
                 placeholder="Message*"
+                name="message"
               ></textarea>
             </div>
           </div>
@@ -497,6 +503,7 @@
               type="submit"
               class="btn btn-lg btn-info col-md-2 col-2 submit-contact"
               value="Envoyer"
+              name="submit"
             />
           </div>
         </form>
