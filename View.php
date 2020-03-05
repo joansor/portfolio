@@ -84,7 +84,7 @@
       <div class="heading span3 wow bounceInDown center">
         <h1>Hello, c'est moi Joan</h1>
         <h3>Développeur Web et Web Mobile</h3>
-        <a href="docs/Cvjoan.docx" class="button1">Télécharger CV</a>
+        <a href="docs/cvJoan_resize.pdf" class="button1">Télécharger CV</a>
       </div>
     </section>
     <!--compétences-->
@@ -229,7 +229,7 @@
               <h3>Formation online "Développeur Web"</h3>
               <h4>Cours Udémy</h4>
               <div class="divider"></div>
-              <p>dévellopement web</p>
+              <p>dévelopement web</p>
               <p>HTML/CSS</p>
             </div>
           </div>
@@ -253,7 +253,7 @@
             <div class="education-block">
               <h5>2019-2020</h5>
               <span class="fas fa-graduation-cap"></span>
-              <h3>Formation accélérer</h3>
+              <h3>Formation certifiante (bac+2)</h3>
               <h4>L'Access Code School</h4>
               <div class="divider"></div>
               <p>front-end & back-end</p>
