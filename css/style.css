@@ -345,38 +345,53 @@ img.img-thumbnail{
 #contact h2 {
   color: #fff;
 }
+.form-control:focus {
+  border-color: #ff4500;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 69, 0);
+}
+input.form-control:focus {
+  border-color: #ff4500;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(255, 69, 0);
+}
 input.form-control{
 
     background: none;
     border: none;
     border-bottom: solid 1px;
+    color: white;
 }
 textarea.form-control {
   min-height: 160px;
   background: none;
+  color: white;
+
 }
 .btn.btn-lg.btn-info.col-md-2.submit-contact {
+  margin-top: 40px;
+  background-color: #2d3436;
+  border:1px solid #ff4500;
+}
+
+.btn.btn-lg.btn-info.col-md-2.submit-contact:hover {
   margin-top: 40px;
   background-color: #ff4500;
   border: none;
 }
+
 /*focus, hover*/
 input.form-control:focus {
     
-    color: black;
-    background: white;
+    color: white;
+    background: #2d3436;
     border: none;
 }
 textarea.form-control:focus {
     
-    color: black;
-    background: white;
+    color: white;
+    background: #2d3436;
   }
-  .btn.btn-lg.btn-info.col-md-2.submit-contact:hover {
-    margin-top: 40px;
-    background-color: #ff4500;
-    border: none;
-  }
+
+
 /* FOOTER */
 footer {
   border-top: #fff solid 1px;

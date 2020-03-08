@@ -54,24 +54,25 @@
         id="myNavbar"
       >
         <ul class="nav nav-pills navbar-nav">
-          <li class="nav-item"><a class="nav-link mr-1" href="#about">Moi</a></li>
+          <li class="nav-item"><a class="nav-link mr-1 js-scrollTo" href="#about"
+          >Moi</a></li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#skills">Compétences</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#skills">Compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#experience">Expérience</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#experience">Expérience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#education">Education</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#portfolio">Portfolio</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#mes-objectifs">Mes Objectifs</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#mes-objectifs">Mes Objectifs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-1" href="#contact">Contact</a>
+            <a class="nav-link mr-1 js-scrollTo" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -96,7 +97,7 @@
       <div class="container col-md-12">
           <div class="row">
                 <div class="col-md-6 d-flex justify-content-center">
-                <h5>Front-end</h5>
+                
                   <div class="index">
                     <img class="img-thumbnail" src="images/html.png" alt="html" />
                   </div>
@@ -115,7 +116,7 @@
                   </div>
                         
                   <div class="col-md-6 d-flex justify-content-center">
-                    <h5>Back-end</h5>
+                    
                   <div class="index">
                     <img class="img-thumbnail" src="images/mysql.png" alt="mySql" />
                   </div>
@@ -512,7 +513,7 @@
     </section>
 
     <footer class="text-center">
-      <a href="#about">
+      <a href="#about" class="js-scrollTo">
         <span class="fas fa-chevron-up"></span>
       </a>
       <h5>© joan SOR</h5>
@@ -520,15 +521,14 @@
         ><img class="icon-img shake-horizontal" src="images/in.png"
       /></a>
     </footer>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -540,5 +540,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
+
+
