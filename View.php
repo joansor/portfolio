@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>MonPortfolio</title>
+  <title>Joan SOR | Portfolio</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" type="text/css" />
+  <link rel="icon" type="image/jpeg" href="images/photo.jpeg"/>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -30,16 +31,13 @@
           <a class="nav-link mr-1 js-scrollTo" href="#skills">Compétences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mr-1 js-scrollTo" href="#experience">Expérience</a>
+          <a class="nav-link mr-1 js-scrollTo" href="#mes-objectifs">Mes Objectifs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-1 js-scrollTo" href="#projets">Projets</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mr-1 js-scrollTo" href="#education">Éducation</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-1 js-scrollTo" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-1 js-scrollTo" href="#mes-objectifs">Mes Objectifs</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mr-1 js-scrollTo" href="#contact">Contact</a>
@@ -50,7 +48,7 @@
   <!--Présentation-->
   <section id="about" class="container-fluid">
     <div class="col-8 col-lg-4 profile-picture">
-      <img src="images/photo.jpeg" alt="Joan" class="rounded-circle" />
+      <img src="images/photo.jpeg" alt="Joan" class="rounded-circle"/>
     </div>
     <div class="heading span3 wow bounceInDown center">
       <h1>Hello, c'est moi Joan</h1>
@@ -110,81 +108,92 @@
         </div>
       </div>
   </section>
-  <!--mon expérience-->
-  <section id="experience">
+  <!--Mes Objectifs-->
+  <section id="mes-objectifs">
     <div class="container">
       <div class="divider"></div>
       <div class="heading">
-        <h2>Expérience Professionelle</h2>
+        <h2>Mes Objectifs</h2>
       </div>
-      <ul class="timeline">
-        <li>
-          <div class="timeline-badge">
-            <span class="fas fa-briefcase"></span>
+      <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <h3>"Améliorer mon anglais"</h3>
+            <h4>prochaine formation</h4>
           </div>
-          <div class="timeline-panel-container">
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3></h3>
-                <h4>Access Code School</h4>
-                <p class="text-muted">
-                  <small class="fas fa-clock"></small> janvier-mai 2020
-                </p>
-              </div>
-              <div class="timeline-body">
-                <p>
-                  Apprentissage de différents languages back-end
-                </p>
-                <p>PHP/MySql...</p>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <h3>"Intégrer une entreprise"</h3>
+            <h4>De développement web et web mobile</h4>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge">
-            <span class="fas fa-briefcase"></span>
+          <div class="carousel-item">
+            <h3>
+              "Me perfectionner"
+            </h3>
+            <h4>Avec un futur stage</h4>
           </div>
-          <div class="timeline-panel-container-inverted">
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3>Access Code School</h3>
-                <h4>Développeur Web et Web Mobile</h4>
-                <p class="text-muted">
-                  <small class="fas fa-clock"></small> 2019-2020
-                </p>
-              </div>
-              <div class="timeline-body">
-                <p>
-                  Apprentissage de différents languages front-end
-                </p>
-                <p>
-                  HTML, CSS, JS, ...
-                </p>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <h3>
+              "Devenir full-stack"
+            </h3>
+            <h4>Comprendre aussi bien le back-end que le front-end</h4>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge">
-            <span class="fas fa-briefcase"></span>
-          </div>
-          <div class="timeline-panel-container">
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h3></h3>
-                <h4>Formation online</h4>
-                <p class="text-muted">
-                  <small class="fas fa-clock"></small> Août-2019
-                </p>
-              </div>
-              <div class="timeline-body">
-                <p>Connaissance et apprentissage</p>
-                <p>Mes premiers pas dans le Développement web</p>
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+          <span class="fas fa-chevron-left fa-2x"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
+          <span class="fas fa-chevron-right fa-2x"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--Mes projet que j'ai réalisés-->
+  <section id="projets">
+    <div class="container">
+      <div class="divider"></div>
+      <div class="heading">
+        <h2>Projets</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" id="image_projet" target="_blank">
+            <img class="img-thumbnail" src="images/porjet-bomber.jpg" alt="projet-bomberman"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/Integration-ACS/" target="_blank">
+            <img class="img-thumbnail" src="images/projet-acs.png" alt="projet-acs"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" target="_blank">
+            <img class="img-thumbnail" src="images/projet-inaugurationv1.png" alt="projet-inaugurationv1"/>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" target="_blank">
+            <img class="img-thumbnail" src="images/toutuncinema.png" alt="ToutUnCinema"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/MailProject/" target="_blank">
+            <img class="img-thumbnail" src="images/mailProjet.png" alt="mailProjet"/>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" target="_blank">
+            <img class="img-thumbnail" src="images/projet-inauguration.png" alt="projet-inauguration"/>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
   <!--Education-->
@@ -233,95 +242,9 @@
     </div>
   </section>
 
-  <!--Mes projet que j'ai réalisés-->
-  <section id="portfolio">
-    <div class="container">
-      <div class="divider"></div>
-      <div class="heading">
-        <h2>Portfolio</h2>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" id="image_projet" target="_blank">
-            <img class="img-thumbnail" src="images/porjet-bomber.jpg" alt="projet-bomberman"/>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/Integration-ACS/" target="_blank">
-            <img class="img-thumbnail" src="images/projet-acs.png" alt="projet-acs"/>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" target="_blank">
-            <img class="img-thumbnail" src="images/projet-inaugurationv1.png" alt="projet-inaugurationv1"/>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" target="_blank">
-            <img class="img-thumbnail" src="images/toutuncinema.png" alt="ToutUnCinema"/>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/MailProject/" target="_blank">
-            <img class="img-thumbnail" src="images/mailProjet.png" alt="mailProjet"/>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" target="_blank">
-            <img class="img-thumbnail" src="images/projet-inauguration.png" alt="projet-inauguration"/>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
-  <!--Mes Objectifs-->
-  <section id="mes-objectifs">
-    <div class="container">
-      <div class="divider"></div>
-      <div class="heading">
-        <h2>Mes Objectifs</h2>
-      </div>
-      <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <h3>"Améliorer mon anglais"</h3>
-            <h4>prochaine formation</h4>
-          </div>
-          <div class="carousel-item">
-            <h3>"Intégrer une entreprise"</h3>
-            <h4>De développement web et web mobile</h4>
-          </div>
-          <div class="carousel-item">
-            <h3>
-              "Me perfectionner"
-            </h3>
-            <h4>Avec un futur stage</h4>
-          </div>
-          <div class="carousel-item">
-            <h3>
-              "Devenir full-stack"
-            </h3>
-            <h4>Comprendre aussi bien le back-end que le front-end</h4>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
-          <span class="fas fa-chevron-left fa-2x"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
-          <span class="fas fa-chevron-right fa-2x"></span>
-        </a>
-      </div>
-    </div>
-  </section>
+  
   <!--contactez moi-->
 
   <section id="contact">
