@@ -33,7 +33,7 @@
           <a class="nav-link mr-1 js-scrollTo" href="#experience">Expérience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mr-1 js-scrollTo" href="#education">Education</a>
+          <a class="nav-link mr-1 js-scrollTo" href="#education">Éducation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link mr-1 js-scrollTo" href="#portfolio">Portfolio</a>
@@ -193,7 +193,7 @@
     <div class="container">
       <div class="divider"></div>
       <div class="heading">
-        <h2>Education</h2>
+        <h2>Éducation</h2>
       </div>
       <div class="row">
         <div class="col-md-4">
