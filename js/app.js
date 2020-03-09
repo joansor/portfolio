@@ -12,7 +12,7 @@ function verif(event) {
 
 }
 
-
+//le scroll animée
 $(document).ready(function() {
   $('.js-scrollTo').on('click', function() { // Au clic sur un élément
     let page = $(this).attr('href'); // Page cible
@@ -22,8 +22,7 @@ $(document).ready(function() {
   });
 });
 
-
-
+//verification du formulaire
 function verifName(name) {
   if (name.length < 2) {
     console.log("champ non rempli !");
@@ -75,3 +74,12 @@ if(!codePostal){
 }
 
 }
+
+let img = document.getElementById('image_projet');
+
+img.addEventListener("mouseover", function( event ) {   
+  // on met l'accent sur la cible de mouseover
+
+alert();
+
+});

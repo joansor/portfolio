@@ -104,37 +104,15 @@ border: none;
   border: none;
 }
 
-/* SKILLS */
-/* #skills {
-  background: #fff;
-}
 
-#skills .heading h2 {
-  color: #2d3436;
-}
-#skills .progress {
-  height: 37px;
-  margin: 30px 20px;
-  background: white; /*#ddd*/
-/* }
-#skills .progress-bar {
-  background: white;/*#ff4500*/
-  /* text-align: left;
-}
-#skills .progress h5 {
-  margin-top: 5px;
-  margin-left: 5px;
-  text-shadow: 1px 1px 1px #000;
-  color: #fff;
-}
-.index {
-  position: absolute;
-} */
+/* Compétences */
+
 
 img.img-thumbnail{
 
 
   width: 100px;
+  height: 100px;
   border: none;
  
 }
@@ -296,8 +274,8 @@ img.img-thumbnail{
 #portfolio img {
   width: 100%;
   height: 100%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  /* filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); */
 }
 #portfolio img:hover {
   filter: none;
