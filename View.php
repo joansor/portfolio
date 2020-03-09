@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" type="text/css" />
-  <link rel="icon" type="image/jpeg" href="images/photo.jpeg"/>
+  <!-- <link rel="icon" type="image/png" href="http://localhost/MonPortfolio/images/faviconxl.png"> -->
+  <link rel="shortcut icon" href="http://localhost/MonPortfolio/images/favicon.ico" />
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
