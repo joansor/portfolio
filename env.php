@@ -1,6 +1,6 @@
 <?php
 
-//Nommer ces variables correctement, ce fichier pourra être dans un .gitignore
+// //Nommer ces variables correctement, ce fichier pourra être dans un .gitignore
 $host = "localhost";
 $dbname = "monportfolio; port=3308; charset=utf8";
 $user = "root";

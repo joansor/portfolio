@@ -310,8 +310,13 @@
             <div class="button-position row justify-content-center">
               <input id="submit" type="submit" class="btn btn-lg btn-info col-md-2 col-2 submit-contact" value="Envoyer" name="submit"  onsubmit="verif(event)" />
             </div>
-            <p id="erreur"></p>
-            <p id="ok"></p>
+                  <div>
+                      <input type="checkbox" name="consent" value="consent" id="consent"
+                      label="" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+                      style="line-height: 1.75em; color: #faf0dc;">J’ai lu et accepte <a
+											href="politique-de-confidentialitée.html" style="color: #faf0dc;">la
+											politique de confidentialitée</a> de ce site</span>
+                </div>
           </form>
         </div>
       </section>

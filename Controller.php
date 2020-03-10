@@ -1,6 +1,6 @@
 <?php
 
-include("View.php");
+require_once("View.php");
 require_once("Model.php");
 
 
@@ -73,7 +73,7 @@ if (!$email || !$message || !$nom || !$prenom) {
     $result = mail($to, $subject, $htmlContent, $header);
 //appel la function pour inserer dans la base de donnée
     envoieBdd($email, $message, $nom, $prenom);
-    echo "L'email a été envoyé.";
+    
    
 }
 }

@@ -274,11 +274,11 @@ textarea.form-control:focus {
     background: #2d3436;
   }
 
-#erreur{
+p.erreur{
 
   color: #ff4500;
 }
-#ok{
+p.ok{
 
   color: white;
 }

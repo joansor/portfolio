@@ -6,7 +6,7 @@ function envoieBdd($email, $message, $nom, $prenom)
 global $email, $message, $nom, $prenom;
 
 
-// //en ligne
+//en ligne
 // $host = "localhost";
 // $dbname = "joans_monportfolio; charset=utf8";
 // $user = "joans";
