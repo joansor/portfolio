@@ -65,7 +65,7 @@ document.querySelector("form").addEventListener("submit", function verif(event) 
       event.preventDefault();
     
 
-    }else if(name && email && codePostal){
+    }else if(name && email && !codePostal){
 
       messageOk(" Mail Envoyé! ");
       alert();
@@ -111,15 +111,36 @@ $(document).ready(function() {
 
 /////////////// Creation d'une div dynamique sur over de l'image de projet
 
-let elements = document.getElementsByClassName("image_projet");
+// let elements = document.getElementsByClassName("image_projet");
+// //elements.onmouseover = elements.onmouseout;
 
-let myFunction = function() {
-  let div = document.createElement("div");
-  let attribute = this.getAttribute("class");
-  console.log(attribute);
-};
+// console.log(elements);
 
-for (let i = 0; i < elements.length; i++) {
-  elements[i].addEventListener("mouseover", myFunction, false);
-  
-}
+// let mouseEnter = function() {
+
+//       $(".divToggle").animate({
+//         height: 'toggle'
+//       });
+
+
+// }
+
+// // let mouseLeave = function() {
+
+// //   $(".divToggle").animate({
+// //     display: 'none'
+// //   });
+
+
+// // }
+
+
+// for (let i = 0; i < elements.length; i++) {
+//   elements[i].addEventListener("mouseenter", mouseEnter, false);
+
+
+// // }
+// // for (let i = 0; i < elements.length; i++) {
+// //   elements[i].addEventListener("mouseleave", mouseLeave, false);
+// //}
+

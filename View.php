@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/_send.scss" />
   <link rel="stylesheet" media="screen" href="css/screen.css" type="text/css" />
   <!-- <link rel="icon" type="image/png" href="http://localhost/MonPortfolio/images/faviconxl.png"> -->
   <link rel="shortcut icon" href="http://localhost/MonPortfolio/images/favicon.ico" />
@@ -168,38 +170,62 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/porjet-bomber.jpg" alt="projet-bomberman"/>
-              </a>
+              <div class="hovereffect">
+                  <img class="img-thumbnail img-responsive " id="image" src="images/porjet-bomber.jpg" alt="projet-bomberman"/>               
+                  <div class="overlay">
+                      <h2>Jeu Bomberman</h2>
+                      <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" class="info"target="_blank">Jeu réaliser en : principalement en JavaScript</a>
+                  </div>
+                </div>
             </div>
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/Integration-ACS/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/projet-acs.png" alt="projet-acs"/>
-              </a>
+              <div class="hovereffect">
+                  <img class="img-thumbnail  " id="image" src="images/projet-acs.png" alt="projet-acs"/>                 
+                  <div class="overlay">
+                    <h2>Intégration depuis une maquette</h2>
+                    <a href="https://joans.promo-36.codeur.online/Integration-ACS/" class="info" target="_blank">Réalisation en HTML/CSS/Bootstrap<br>Manipulation de Photoshop</a>
+                  </div>
+              </div>
             </div>
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/projet-inaugurationv1.png" alt="projet-inaugurationv1"/>
-              </a>
+              <div class="hovereffect">
+                  <img class="img-thumbnail  " id="image" src="images/projet-inaugurationv1.png" alt="projet-inaugurationv1"/>                 
+                  <div class="overlay">
+                    <h2>Projet de Présentation</h2>
+                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" class="info" target="_blank">Un projet préparer pour une journée d'inauguration réalisés <br> HTML/CSS/JS/jQuery/Bootstrap</a>
+                  </div>
+                </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/toutuncinema.png" alt="ToutUnCinema"/>
-              </a>
+              <div class="hovereffect">
+                  <img class="img-thumbnail  " id="image" src="images/toutuncinema.png" alt="ToutUnCinema"/>
+                  <div class="overlay">
+                    <h2>Tout un cinéma</h2>
+                    <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" class="info" target="_blank">Réaliser un site d'un genre "allociné"<br> en PHP POO/Twig/MySql</a>
+                  </div>
+              </div>
             </div>
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/MailProject/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/mailProjet.png" alt="mailProjet"/>
-              </a>
+              <div class="hovereffect">            
+                  <img class="img-thumbnail  " id="image" src="images/mailProjet.png" alt="mailProjet"/>              
+                  <div class="overlay">
+                    <h2>MailProject</h2>
+                    <a href="https://joans.promo-36.codeur.online/MailProject/" class="info" target="_blank">Formulaire d'envoie de fichier réalisé en PHP MVC (procédural)</a>
+                  </div>
+              </div>
             </div>
             <div class="col-md-4">
-              <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" class="image_projet" target="_blank">
-                <img class="img-thumbnail" src="images/projet-inauguration.png" alt="projet-inauguration"/>
-              </a>
+              <div class="hovereffect">              
+                    <img class="img-thumbnail  " id="image" src="images/projet-inauguration.png" alt="projet-inauguration"/>    
+                  <div class="overlay">
+                    <h2>Projet de Présentation V2</h2>
+                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" class="info" target="_blank">Un projet préparer pour une journée d'inauguration réalisés en HTML/CSS/JS/jQuery/Bootstrap</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
       </section>
       <!--Education-->
@@ -211,7 +237,7 @@
             <h2>Éducation</h2>
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
               <div class="education-block">
                 <h5>Août-2019</h5>
                 <span class="fas fa-graduation-cap"></span>
@@ -222,7 +248,7 @@
                 <p>HTML/CSS</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
               <div class="education-block">
                 <h5>2019</h5>
                 <span class="fas fa-graduation-cap"></span>
@@ -233,7 +259,7 @@
                 <a class="btn btn-outline-warning" href="docs/attestation_secnumacademie.pdf" role="button">Télécharger Attestation</a>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
               <div class="education-block">
                 <h5>2019-2020</h5>
                 <span class="fas fa-graduation-cap"></span>
@@ -308,18 +334,27 @@
               </div>
             </div>
             <div class="button-position row justify-content-center">
-              <input id="submit" type="submit" class="btn btn-lg btn-info col-md-2 col-2 submit-contact" value="Envoyer" name="submit"  onsubmit="verif(event)" />
+              <input id="submit" type="submit" class="btn btn-lg btn-info col-md-2 col-4 submit-contact" value="Envoyer" name="submit"  onsubmit="verif(event)" />
             </div>
                   <div>
                       <input type="checkbox" name="consent" value="consent" id="consent"
                       label="" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
                       style="line-height: 1.75em; color: #faf0dc;">J’ai lu et accepte <a
-											href="politique-de-confidentialitée.html" style="color: #faf0dc;">la
+											href="politique-de-confidentialitée.html" style="color: #faf0dc;" target="_blank">la
 											politique de confidentialitée</a> de ce site</span>
                 </div>
           </form>
         </div>
       </section>
+      
+<!-- <div class="send-button">
+ <span class="text">send</span>
+  <span class="icon-wrapper">
+    <span class="icon-1 ion-paper-airplane"></span>
+        <span class="icon-2 ion-checkmark"></span>
+  </span>
+</div> -->
+
 
       <footer class="text-center">
         <a href="#about" class="js-scrollTo">
@@ -329,7 +364,9 @@
         <a class="icons" href="www.linkedin.com/in/joan-sor"><img class="icon-img shake-horizontal" src="images/in.png" /></a>
       </footer> 
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
