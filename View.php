@@ -12,7 +12,6 @@
   <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/_send.scss" />
   <link rel="stylesheet" media="screen" href="css/screen.css" type="text/css" />
   <!-- <link rel="icon" type="image/png" href="http://localhost/MonPortfolio/images/faviconxl.png"> -->
   <link rel="shortcut icon" href="http://localhost/MonPortfolio/images/favicon.ico" />
@@ -329,31 +328,32 @@
 
               <div class="contenair col-md-6 wow slideInRight animated" data-wow-delay=".1s" id="block-text">
                 <label for="contact-textarea"></label>
-
                 <textarea class="form-control" id="contact-textarea" rows="3" placeholder="Message*" name="message"></textarea>
               </div>
             </div>
-            <div class="button-position row justify-content-center">
-              <input id="submit" type="submit" class="btn btn-lg btn-info col-md-2 col-4 submit-contact" value="Envoyer" name="submit"  onsubmit="verif(event)" />
+            <div style="margin-top: 20px">
+              <input type="checkbox" name="consent" value="consent" id="consent"
+              label="" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="line-height: 1.75em; color: #faf0dc;">J’ai lu et accepte <a
+              href="politique-de-confidentialitée.html" style="color: #faf0dc;" target="_blank">la
+              politique de confidentialitée</a> de ce site</span>
             </div>
-                  <div>
-                      <input type="checkbox" name="consent" value="consent" id="consent"
-                      label="" required >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-                      style="line-height: 1.75em; color: #faf0dc;">J’ai lu et accepte <a
-											href="politique-de-confidentialitée.html" style="color: #faf0dc;" target="_blank">la
-											politique de confidentialitée</a> de ce site</span>
-                </div>
+            <div class="button-position row justify-content-center">
+              <input id="submit" type="submit" class="btn btn-lg btn-info col-md-2 col-4 submit-contact icon-2 " value="Envoyer" name="submit"  onsubmit="verif(event)" />
+                <!-- <div class="send-button">
+                  <span class="text">send</span>
+                    <span class="icon-wrapper">
+                      <span class="icon-1 ion-paper-airplane"></span>
+                          <span class="icon-2 ion-checkmark"></span>
+                    </span>
+                </div> -->
+
+            </div>
+                 
           </form>
         </div>
       </section>
       
-<!-- <div class="send-button">
- <span class="text">send</span>
-  <span class="icon-wrapper">
-    <span class="icon-1 ion-paper-airplane"></span>
-        <span class="icon-2 ion-checkmark"></span>
-  </span>
-</div> -->
 
 
       <footer class="text-center">
@@ -372,6 +372,7 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/send.js"></script>
   <script src="js/app.js"></script>
   <script src="js/wow.min.js"></script>
   <script>
