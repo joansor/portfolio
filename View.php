@@ -72,7 +72,7 @@
           <div class="row">
             <div class="col-md-12 d-flex justify-content-center">
               
-                <div class="index">
+                <div class="index span3 wow bounceInLeft" style="visibility: visible; animation-name: bounceInLeft;">
                   <img class="img-thumbnail" src="images/html.png" alt="html" />
                 </div>
 
@@ -80,7 +80,7 @@
                   <img class="img-thumbnail" src="images/css.png" alt="css" />
                 </div>
 
-                <div class="index">
+                <div class="index span3 wow bounceInDown center"data-wow-delay="0.5s"style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
                   <img class="img-thumbnail" src="images/javascript-logo.png" alt="js" />
                 </div>
                 <!-- </div> -->
@@ -91,7 +91,7 @@
                   <img class="img-thumbnail" src="images/bootstrap.png" alt="bootstrap" />
                 </div>
                 <!-- <div class="col-md-4 d-flex justify-content-center"> -->
-                <div class="index">
+                <div class="index span3 wow flip"data-wow-iteration="5" data-wow-duration="0.15s"style="visibility: visible; animation-duration: 0.15s; animation-iteration-count: 5;">
                   <img class="img-thumbnail" src="images/github-icon.png" alt="github" />
                 </div>
               </div>
@@ -102,13 +102,13 @@
                 <div class="index">
                   <img class="img-thumbnail" src="images/php.png" alt="php" />
                 </div>
-                <div class="index">
+                <div class="index span3 wow bounceInUp center" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">
                   <img class="img-thumbnail" src="images/mysql-workbench.png" alt="workbench" />
                 </div>
                 <div class="index">
                   <img class="img-thumbnail" src="images/wamp.png" alt="wamp" />
                 </div>
-                <div class="index">
+                <div class="index span3 wow bounceInRight" data-wow-delay="1s"style="visibility: visible; animation-delay: 1.5s; animation-name: bounceInRight;">
                   <img class="img-thumbnail" src="images/wordpress.png" alt="wordpress" />
                 </div>
               </div>
