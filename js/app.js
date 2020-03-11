@@ -65,10 +65,10 @@ document.querySelector("form").addEventListener("submit", function verif(event) 
       event.preventDefault();
     
 
-    }else if(name && email && !codePostal){
+    }else if(!name && !email && !codePostal){
 
       messageOk(" Mail Envoyé! ");
-      alert();
+      
       }
 
 }); //fin de addEventListener Formulaire
