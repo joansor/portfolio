@@ -58,7 +58,7 @@
         <div class="heading span3 wow bounceInDown center">
           <h1>Hello, c'est moi Joan</h1>
           <h3>Développeur Web et Web Mobile</h3>
-          <a href="docs/cvJoan_.png" class="button1">Télécharger CV</a>
+          <a href="docs/cvJoan_.pdf" class="button1">Télécharger CV</a>
         </div>
       </section>
       <!--compétences-->
@@ -173,7 +173,7 @@
                   <img class="img-thumbnail img-responsive " id="image" src="images/porjet-bomber.jpg" alt="projet-bomberman"/>               
                   <div class="overlay">
                       <h2>Jeu Bomberman</h2>
-                      <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" class="info"target="_blank">Jeu réaliser en : principalement en JavaScript</a>
+                      <a href="https://joans.promo-36.codeur.online/formation/Mini-projets/jeu/" class="info"target="_blank">J'ai réalisé principalement en JavaScript</a>
                   </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                   <img class="img-thumbnail  " id="image" src="images/projet-inaugurationv1.png" alt="projet-inaugurationv1"/>                 
                   <div class="overlay">
                     <h2>Projet de Présentation</h2>
-                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" class="info" target="_blank">Un projet préparer pour une journée d'inauguration réalisés <br> HTML/CSS/JS/jQuery/Bootstrap</a>
+                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration-v1/" class="info" target="_blank"> Projet préparé pour une journée d'inauguration et réalisé en <br> HTML/CSS/JS/jQuery/Bootstrap</a>
                   </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                   <img class="img-thumbnail  " id="image" src="images/toutuncinema.png" alt="ToutUnCinema"/>
                   <div class="overlay">
                     <h2>Tout un cinéma</h2>
-                    <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" class="info" target="_blank">Réaliser un site d'un genre "allociné"<br> en PHP POO/Twig/MySql</a>
+                    <a href="https://joans.promo-36.codeur.online/ToutUnCinema/" class="info" target="_blank">Réalisation d'un site du genre "allociné"<br> en PHP POO/Twig/MySql</a>
                   </div>
               </div>
             </div>
@@ -211,7 +211,7 @@
                   <img class="img-thumbnail  " id="image" src="images/mailProjet.png" alt="mailProjet"/>              
                   <div class="overlay">
                     <h2>MailProject</h2>
-                    <a href="https://joans.promo-36.codeur.online/MailProject/" class="info" target="_blank">Formulaire d'envoie de fichier réalisé en PHP MVC (procédural)</a>
+                    <a href="https://joans.promo-36.codeur.online/MailProject/" class="info" target="_blank">Formulaire d'envoi de fichiers réalisé en PHP MVC (procédural)</a>
                   </div>
               </div>
             </div>
@@ -220,7 +220,7 @@
                     <img class="img-thumbnail  " id="image" src="images/projet-inauguration.png" alt="projet-inauguration"/>    
                   <div class="overlay">
                     <h2>Projet de Présentation V2</h2>
-                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" class="info" target="_blank">Un projet préparer pour une journée d'inauguration réalisés en HTML/CSS/JS/jQuery/Bootstrap</a>
+                    <a href="https://joans.promo-36.codeur.online/formation/Projets/Inauguration/" class="info" target="_blank">Projet préparé pour une journée d'inauguration et réalisé en HTML/CSS/JS/jQuery/Bootstrap</a>
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@
                 <h3>Formation online "Développeur Web"</h3>
                 <h4>Cours Udémy</h4>
                 <div class="divider"></div>
-                <p>dévelopement web</p>
+                <p>développement web</p>
                 <p>HTML/CSS</p>
               </div>
             </div>
@@ -252,7 +252,7 @@
                 <h5>2019</h5>
                 <span class="fas fa-graduation-cap"></span>
                 <h3>MOOC de L'ANSSI</h3>
-                <h4>SecNum<i>academie</i></h4>
+                <h4>SecNum academie</h4>
                 <div class="divider"></div>
                 <p>Certificat</p>
                 <a class="btn btn-outline-warning" href="docs/attestation_secnumacademie.pdf" role="button">Télécharger Attestation</a>
@@ -262,8 +262,8 @@
               <div class="education-block">
                 <h5>2019-2020</h5>
                 <span class="fas fa-graduation-cap"></span>
-                <h3>Formation certifiante (bac+2)</h3>
-                <h4>L'Access Code School</h4>
+                <h3>Formation certifiante <h5>(bac+2)</h5></h3>
+                <h4>Access Code School<h5>(Mulhouse)</h5></h4>
                 <div class="divider"></div>
                 <p>front-end & back-end</p>
                 <p>HTML/CSS/JavaScript/...</p>

@@ -7,17 +7,17 @@ global $email, $message, $nom, $prenom;
 
 
 //en ligne
-// $host = "localhost";
-// $dbname = "joans_monportfolio; charset=utf8";
-// $user = "joans";
-// $pass = "knjs9opz0AHmqA==";
+$host = "localhost";
+$dbname = "joans_monportfolio; charset=utf8";
+$user = "joans";
+$pass = "knjs9opz0AHmqA==";
 
 
 //en local
-$host = "localhost";
-$dbname = "monportfolio; port=3308; charset=utf8";
-$user = "root";
-$pass = "";
+// $host = "localhost";
+// $dbname = "monportfolio; port=3308; charset=utf8";
+// $user = "root";
+// $pass = "";
 
 
 

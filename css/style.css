@@ -247,13 +247,13 @@ img.img-thumbnail{
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  border: 1px solid #fff;
+  border: 1px solid #ff4500;
   /* margin: 50px 0 0 0; */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px #ff4500;
 }
 
 .hovereffect .info, .hovereffect h2 {
@@ -264,7 +264,7 @@ img.img-thumbnail{
   transition: all 0.4s ease-in;
   opacity: 0;
   filter: alpha(opacity=0);
-  color: #ff4500;
+  color: white;
   text-transform: uppercase;
 }
 
