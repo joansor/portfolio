@@ -25,7 +25,7 @@
       <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <a class="navbar-brand" href="#"></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars fa-lg"></i>
         </button>
 
@@ -33,19 +33,19 @@
           <ul class="nav nav-pills navbar-nav">
             <li class="nav-item"><a class="nav-link mr-1 js-scrollTo" href="#about">Moi</a></li>
             <li class="nav-item">
-              <a class="nav-link mr-1 js-scrollTo" href="#skills">Compétences</a>
+              <a class="nav-link mr-1 js-scrollTo" href="#skills" data-toggle="collapse" data-target=".navbar-collapse.show">Compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-1 js-scrollTo" href="#mes-objectifs">Mes Objectifs</a>
+              <a class="nav-link mr-1 js-scrollTo" href="#mes-objectifs" data-toggle="collapse" data-target=".navbar-collapse.show">Mes Objectifs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-1 js-scrollTo" href="#projets">Projets</a>
+              <a class="nav-link mr-1 js-scrollTo" href="#projets" data-toggle="collapse" data-target=".navbar-collapse.show">Projets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-1 js-scrollTo" href="#education">Éducation</a>
+              <a class="nav-link mr-1 js-scrollTo" href="#education" data-toggle="collapse" data-target=".navbar-collapse.show">Éducation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-1 js-scrollTo" href="#contact">Contact</a>
+              <a class="nav-link mr-1 js-scrollTo" href="#contact"  data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
             </li>
           </ul>
         </div>

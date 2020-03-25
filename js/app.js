@@ -147,4 +147,8 @@ $(document).ready(function() {
 /********************************************************* */
 /*********************************************************** */
 
-//
+
+// au click du lien le menu se cache 
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
