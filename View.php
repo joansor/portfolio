@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="index">
-                  <img class="img-thumbnail" src="images/css.png" alt="css" />
+                  <img class="img-thumbnail" src="images/css3.png" alt="css" />
                 </div>
 
                 <div class="index span3 wow bounceInDown center"data-wow-delay="0.5s"style="visibility: visible; animation-delay: 0.5s; animation-name: rollIn;">
