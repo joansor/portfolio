@@ -248,17 +248,6 @@
           <div class="row">
             <div class="col-md-4 mt-2">
               <div class="education-block">
-                <h5>Août-2019</h5>
-                <span class="fas fa-graduation-cap"></span>
-                <h3>Formation online "Développeur Web"</h3>
-                <h4>Cours Udémy</h4>
-                <div class="divider"></div>
-                <p>développement web</p>
-                <p>HTML/CSS</p>
-              </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="education-block">
                 <h5>2019</h5>
                 <span class="fas fa-graduation-cap"></span>
                 <h3>MOOC de L'ANSSI</h3>
@@ -277,6 +266,50 @@
                 <div class="divider"></div>
                 <p>front-end & back-end</p>
                 <p>HTML/CSS/JavaScript/...</p>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="education-block">
+                <h5>2020</h5>
+                <span class="fas fa-graduation-cap"></span>
+                <h3>Formation en ligne</h3>
+                <h4>OpenClassRoom</h4>
+                <div class="divider"></div>
+                <p>Certificat</p>
+                <a class="btn btn-outline-warning" href="docs/certifFullStack.pdf" role="button">Certificat Full Stack</a>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="education-block">
+                <h5>2020</h5>
+                <span class="fas fa-graduation-cap"></span>
+                <h3>Formation en ligne</h3>
+                <h4>OpenClassRoom</h4>
+                <div class="divider"></div>
+                <p>Certificat</p>
+                <a class="btn btn-outline-warning" href="docs/certifJS.pdf" role="button">Certificat JavaScript</a>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="education-block">
+                <h5>2020</h5>
+                <span class="fas fa-graduation-cap"></span>
+                <h3>Formation en ligne</h3>
+                <h4>OpenClassRoom</h4>
+                <div class="divider"></div>
+                <p>Certificat</p>
+                <a class="btn btn-outline-warning" href="docs/certifWordpress.pdf" role="button">Certificat wordpress</a>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="education-block">
+                <h5>2020</h5>
+                <span class="fas fa-graduation-cap"></span>
+                <h3>Formation en ligne</h3>
+                <h4>OpenClassRoom</h4>
+                <div class="divider"></div>
+                <p>Certificat</p>
+                <a class="btn btn-outline-warning" href="docs/certifHTML_CSS.pdf" role="button">Certificat HTML/CSS</a>
               </div>
             </div>
           </div>
