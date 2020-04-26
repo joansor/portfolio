@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" type="text/css" />
   <!-- <link rel="icon" type="image/png" href="http://localhost/MonPortfolio/images/faviconxl.png"> -->
-  <link rel="shortcut icon" href="http://localhost/MonPortfolio/images/favicon.ico" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
 
 </head>
 
@@ -58,7 +58,7 @@
         <div class="heading span3 wow bounceInDown center">
           <h1>Hello, c'est moi Joan</h1>
           <h3>Développeur Web et Web Mobile</h3>
-          <a href="docs/cvJoan_.pdf" class="button1">Télécharger CV</a>
+          <a href="docs/cv_Joan.pdf" class="button1">Télécharger CV</a>
         </div>
       </section>
       <!--compétences-->
@@ -87,11 +87,17 @@
                   <img class="img-thumbnail" src="images/Jquery.png" alt="jquery" />
                 </div>
                 <div class="index">
+                  <img class="img-thumbnail" src="images/symfony.png" alt="symfony"/>
+                </div>
+                <div class="index">
                   <img class="img-thumbnail" src="images/bootstrap.png" alt="bootstrap" />
                 </div>
                 <!-- <div class="col-md-4 d-flex justify-content-center"> -->
                 <div class="index span3 wow flip"data-wow-iteration="5" data-wow-duration="0.15s"style="visibility: visible; animation-duration: 0.15s; animation-iteration-count: 5;">
                   <img class="img-thumbnail" src="images/github-icon.png" alt="github" />
+                </div>
+                <div class="index">
+                  <img class="img-thumbnail" src="images/vuejs.png" alt="vuejs"/>
                 </div>
               </div>
               <div class="col-md-12 d-flex justify-content-center">
@@ -107,9 +113,13 @@
                 <div class="index">
                   <img class="img-thumbnail" src="images/wamp.png" alt="wamp" />
                 </div>
-                <div class="index span3 wow bounceInRight" data-wow-delay="1s"style="visibility: visible; animation-delay: 1.5s; animation-name: bounceInRight;">
+                <div class="index mr-1">
                   <img class="img-thumbnail" src="images/wordpress.png" alt="wordpress" />
                 </div>
+                <div class="index span3 wow bounceInRight" data-wow-delay="1s"style="visibility: visible; animation-delay: 1.5s; animation-name: bounceInRight;">
+                  <img class="img-thumbnail" src="images/nodejs.png" alt="nodejs"/>
+                </div>
+                
               </div>
               <!-- </div> -->
             </div>
