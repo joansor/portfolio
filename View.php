@@ -87,11 +87,7 @@
                   <img class="img-thumbnail" src="images/Jquery.png" alt="jquery" />
                 </div>
                 <div class="index">
-<<<<<<< HEAD
                   <img class="img-thumbnail" src="images/Symfony.png" alt="symfony"/>
-=======
-                  <img class="img-thumbnail" src="images/symfony.png" alt="symfony"/>
->>>>>>> 41c841c3fa65a07a09b399902121c761c34bf078
                 </div>
                 <div class="index">
                   <img class="img-thumbnail" src="images/bootstrap.png" alt="bootstrap" />
