@@ -17,6 +17,17 @@ $projectNameLength = strlen($projetName) + 1;
 $base_url = mb_substr($_SERVER['REQUEST_URI'], 0, $projectNameLength);
 */
 $host_name = 'db5001213097.hosting-data.io';
-$database = 'dbs1037266';
+$database = "dbs1037266";
 $user_name = 'dbu1214965';
-$password = 'Jo@n230985';
+$password = "Jo@n230985";
+
+//$dbh = null;
+
+try {
+    $dbh = new PDO('mysql:host='.$host_name.'; dbname='.$database, $user_name, $password);
+    echo"---------------Connection--------------------";
+  } catch (PDOException $e) {
+    echo"---------------ERREUR----------------";
+    echo "Erreur!: " . $e->getMessage() . "<br/>";
+    die();
+  }
