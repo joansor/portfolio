@@ -22,7 +22,7 @@ function envoieBdd($email, $message, $nom, $prenom)
   /*******************************************/
 
   try {
-    $dbh = new PDO('mysql:host='.$host_name.'; dbname='.$database, $user_name, $password);
+    $dbh = new PDO('mysql:host='.$host_name.'; port=3306; dbname='.$database, $user_name, $password);
     //prepare la requete
     if ($nom && $prenom && $email && $message) {
       $sql = $dbh->prepare("INSERT INTO portfolio SET nom = :nom, prenom = :prenom, email = :email, message = :message");

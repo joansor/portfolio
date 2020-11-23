@@ -78,6 +78,5 @@ Reply-To:<a href=' . $email . '>' . $email . '</a><br><br>
         mail($to, $subject, $htmlContent, $header);
         //appel la function pour inserer dans la base de donnée
         envoieBdd($email, $message, $nom, $prenom);
-        
     }
 }

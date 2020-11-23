@@ -23,11 +23,11 @@ $password = "Jo@n230985";
 
 //$dbh = null;
 
-try {
+/*try {
     $dbh = new PDO('mysql:host='.$host_name.'; dbname='.$database, $user_name, $password);
     echo"---------------Connection--------------------";
   } catch (PDOException $e) {
     echo"---------------ERREUR----------------";
     echo "Erreur!: " . $e->getMessage() . "<br/>";
     die();
-  }
+  }*/
