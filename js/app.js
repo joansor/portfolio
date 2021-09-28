@@ -73,9 +73,6 @@ document.querySelector("form").addEventListener("submit", function verif(event) 
 
 }); //fin de addEventListener Formulaire
 
-
-
-
 function messageOk(variable){
 
   let p =  document.createElement("p");
@@ -96,8 +93,6 @@ function messageErreur(variable){
   setTimeout(function messageErreur(variable){ p.innerText = " "; }, 5000);
 }
 
-
-
 //le scroll animée
 $(document).ready(function() {
   $(".js-scrollTo").on("click", function() {
@@ -109,46 +104,7 @@ $(document).ready(function() {
   });
 }); // fin du scroll animée
 
-/////////////// Creation d'une div dynamique sur over de l'image de projet
 
-// let elements = document.getElementsByClassName("image_projet");
-// //elements.onmouseover = elements.onmouseout;
-
-// console.log(elements);
-
-// let mouseEnter = function() {
-
-//       $(".divToggle").animate({
-//         height: 'toggle'
-//       });
-
-
-// }
-
-// // let mouseLeave = function() {
-
-// //   $(".divToggle").animate({
-// //     display: 'none'
-// //   });
-
-
-// // }
-
-
-// for (let i = 0; i < elements.length; i++) {
-//   elements[i].addEventListener("mouseenter", mouseEnter, false);
-
-
-// // }
-// // for (let i = 0; i < elements.length; i++) {
-// //   elements[i].addEventListener("mouseleave", mouseLeave, false);
-// //}
-
-/********************************************************* */
-/*********************************************************** */
-
-
-// au click du lien le menu se cache 
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
