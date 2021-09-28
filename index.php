@@ -426,6 +426,7 @@
           </div>
         </form>
       </div>
+      <?php include('fonction.php');?>
     </section>
     <footer class="text-center">
       <a href="#about" class="js-scrollTo">

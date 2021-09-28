@@ -18,10 +18,8 @@ foreach ($superglobals as $superglobal) {
 
 global $submit, $nom, $prenom, $message;
 
-//Si bouton envoyé
-
+//Si formulaire submit
 if ($submit) {
-
     $name = $nom . " " . $prenom;
     $header = "From:" . $email . "\r\n";
     $header .= "Reply-To: " . $email . "\r\n";
@@ -31,27 +29,27 @@ if ($submit) {
 
     // la mise en page du mail de reception en html
     $htmlContent = ' 
-<html> 
-<head> 
-    <title>Mail</title> 
-</head> 
-<body> 
-    <h1 style="color : red">Hello ! Un mail envoyé de mon portfolio de ' . $name . ' !</h1> 
-    <table cellpadding="0" cellspacing="0" width="100%">
-<tbody style="display: block">
-<tr>
-<td style="display: block; width: 250px; height: 60px; text-align: left">
-From:<a href=mailto:' . $email . '>' . $email . '</a><br>
-Reply-To:<a href=' . $email . '>' . $email . '</a><br><br>
-</td>
-</tr>
-<tr>
-<td style="display: block; width: "250px; min-height: 250px"">
-' . $message . '.<br><br><br><br>' . '
-</td>
-</tr>
-</tbody></table>
-</html>';
+    <html> 
+    <head> 
+        <title>Mail</title> 
+    </head> 
+    <body> 
+        <h1 style="color : red">Hello ! Un mail envoyé de mon portfolio de ' . $name . ' !</h1> 
+        <table cellpadding="0" cellspacing="0" width="100%">
+    <tbody style="display: block">
+    <tr>
+    <td style="display: block; width: 250px; height: 60px; text-align: left">
+    From:<a href=mailto:' . $email . '>' . $email . '</a><br>
+    Reply-To:<a href=' . $email . '>' . $email . '</a><br><br>
+    </td>
+    </tr>
+    <tr>
+    <td style="display: block; width: "250px; min-height: 250px"">
+    ' . $message . '.<br><br><br><br>' . '
+    </td>
+    </tr>
+    </tbody></table>
+    </html>';
 
     $to = @html_entity_decode($to);
     $header = @html_entity_decode($header);
@@ -59,43 +57,37 @@ Reply-To:<a href=' . $email . '>' . $email . '</a><br><br>
     $subject = @html_entity_decode($subject);
 
     //si les champs ne sont pas rempli
-
     if (!$email || !$message || !$nom || !$prenom) {
         echo "Rempli le formulaire!!!!!";
-       
     } else {
         $to = "sor.joan@gmail.com";
         //envoie la fonction mail
         mail($to, $subject, $htmlContent, $header);
-
 
         //appel la function pour inserer dans la base de donnée
         /*************** Connexion BDD ****************/
         $host_name = 'db5001213097.hosting-data.io';
         $database = "dbs1037266";
         $user_name = 'dbu1214965';
-        $password = "Jo@n230985";
+        $password = "Mil@-220118";
         $dbh = null;
-        try {
-          $dbh = new PDO('mysql:host='.$host_name.'; port=3306; dbname='.$database, $user_name, $password);
-          //prepare la requete
-          if ($nom && $prenom && $email && $message) {
+        $dbh = new PDO('mysql:host=' . $host_name . '; port=3306; dbname=' . $database, $user_name, $password);
+        //prepare la requete
+        if ($nom && $prenom && $email && $message) {
             $sql = $dbh->prepare("INSERT INTO portfolio SET nom = :nom, prenom = :prenom, email = :email, message = :message");
             // execute la requete
             $sql->execute(array(
-      
-              ':nom' => $nom,
-              ':prenom' => $prenom,
-              ':email' => $email,
-              ':message' => $message,
-      
+                ':nom' => $nom,
+                ':prenom' => $prenom,
+                ':email' => $email,
+                ':message' => $message,
             ));
             "<div id=\"envoyer\">Envoyé</div>";
-          }
-        } catch (PDOException $e) {
-          echo"---------------ERREUR----------------";
-          echo "Erreur!: " . $e->getMessage() . "<br/>";
-          die();
+        }
+        if ($dbh->connect_error) {
+            die('<p>La connexion au serveur MySQL a échoué: ' . $dbh->connect_error . '</p>');
+        } else {
+            // echo '<p>Connexion au serveur MySQL établie avec succès.</p>';
         }
     }
 }
